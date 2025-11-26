@@ -2,14 +2,31 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        double x =3.0;
+        double y = 4.0;
+        double z = -5.0;
+        double A, B, C;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        A = Math.sqrt(x);
+        B = Math.sqrt(y);
+        C = Math.sqrt(25.0);
+
+        System.out.println("Raiz Quadrada de " + x + " = " + A);
+        System.out.println("Raiz Quadrada de " + y + " = " + B);
+        System.out.println("Raiz Quadrada de 25 = " + C);
+
+        A = Math.pow(x, y);
+        B = Math.pow(y, 2.0);
+        C = Math.pow(5.0, 2.0);
+
+        System.out.println(x + "elevado a " + y + " = " + A);
+        System.out.println(x + "elevado ao quadrdado = " + B);
+        System.out.println(" 5 elevado ao quadrado = " + C);
+
+
+        A = Math.abs(y);
+        B = Math.abs(z);
+        System.out.println("Valor absoluto de " + y + " = " + A);
+        System.out.println("Valor absoluto de " + z + " = " + B);
     }
 }
