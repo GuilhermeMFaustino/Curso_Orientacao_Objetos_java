@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Estrurura_Condicional_Composta/Estrurura_Condicional_Composta.iml" filepath="$PROJECT_DIR$/Estrurura_Condicional_Composta/Estrurura_Condicional_Composta.iml" />
       <module fileurl="file://$PROJECT_DIR$/Estrutura_condicional/Estrutura_condicional.iml" filepath="$PROJECT_DIR$/Estrutura_condicional/Estrutura_condicional.iml" />
       <module fileurl="file://$PROJECT_DIR$/Funcoes_matematicas/Funcoes_matematicas.iml" filepath="$PROJECT_DIR$/Funcoes_matematicas/Funcoes_matematicas.iml" />
       <module fileurl="file://$PROJECT_DIR$/entrada_de_dados/entrada_de_dados.iml" filepath="$PROJECT_DIR$/entrada_de_dados/entrada_de_dados.iml" />
